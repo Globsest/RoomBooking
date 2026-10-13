@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="35" skipped="0" failures="0" errors="0" time="2.393" hostname="Globsest" timestamp="2026-10-12T19:26:01">
+<properties>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="\"/>
+<property name="java.class.path" value="C:\Users\glebd\Рабочий стол\RoomBooking\lib\junit-platform-console-standalone-1.11.4.jar"/>
+<property name="java.class.version" value="67.0"/>
+<property name="java.home" value="C:\Users\glebd\.jdks\openjdk-23.0.2"/>
+<property name="java.io.tmpdir" value="C:\Users\glebd\Рабочий стол\RoomBooking\out\test-temp"/>
+<property name="java.library.path" value="C:\Users\glebd\.jdks\openjdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\glebd\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\glebd\.codex\tmp\arg0\codex-arg0zHDBYO;C:\Users\glebd\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\glebd\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\glebd\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\glebd\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.0\;C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin;C:\Program Files\KeePassXC\;C:\Users\glebd\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\glebd\AppData\Local\Programs\Python\Python313\;C:\Users\glebd\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\glebd\AppData\Local\Microsoft\WindowsApps;C:\Users\glebd\AppData\Local\GitHubDesktop\bin;C:\Users\glebd\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\glebd\AppData\Roaming\npm;C:\Users\glebd\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Apache\Maven;c:\users\glebd\.local\bin;c:\users\glebd\appdata\roaming\python\python313\scripts;C:\Users\glebd\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\glebd\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\glebd\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\glebd\AppData\Local\OpenAI\Codex\bin\9a7ba4b9ea0c44a3;C:\Users\glebd\AppData\Local\OpenAI\Codex\bin\2e5e00daee91c61d;."/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="23.0.2+7-58"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="23"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="https://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+<property name="java.version" value="23.0.2"/>
+<property name="java.version.date" value="2025-01-21"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="java.vm.info" value="mixed mode, sharing"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="23"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="23.0.2+7-58"/>
+<property name="jdk.debug" value="release"/>
+<property name="junit.docs.version" value="1.11.4"/>
+<property name="line.separator" value="&#13;&#10;"/>
+<property name="native.encoding" value="Cp1251"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 11"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="stderr.encoding" value="Cp1251"/>
+<property name="stdout.encoding" value="Cp1251"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="C:\Users\glebd\.jdks\openjdk-23.0.2\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="C:\Users\glebd\Рабочий стол\RoomBooking\lib\junit-platform-console-standalone-1.11.4.jar execute --class-path out\junit-main;out\junit-tests --scan-class-path --fail-if-no-tests --disable-ansi-colors --reports-dir out\junit-reports"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1251"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="RU"/>
+<property name="user.dir" value="C:\Users\glebd\Рабочий стол\RoomBooking"/>
+<property name="user.home" value="C:\Users\glebd"/>
+<property name="user.language" value="ru"/>
+<property name="user.name" value="glebd"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="Europe/Moscow"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="overlappingBooking(String, String)[1]" classname="BookingServiceTest" time="0.03">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:overlappingBooking(java.lang.String, java.lang.String)]/[test-template-invocation:#1]
+display-name: Пересечение: 10:00–11:00
+]]></system-out>
+</testcase>
+<testcase name="duplicateName()" classname="BookingServiceTest" time="0.007">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:duplicateName()]
+display-name: Повторное название без учёта регистра запрещено
+]]></system-out>
+</testcase>
+<testcase name="overlappingBooking(String, String)[4]" classname="BookingServiceTest" time="0.019">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:overlappingBooking(java.lang.String, java.lang.String)]/[test-template-invocation:#4]
+display-name: Пересечение: 10:10–10:50
+]]></system-out>
+</testcase>
+<testcase name="corruptedStorage()" classname="BookingRepositoryTest" time="0.009">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingRepositoryTest]/[method:corruptedStorage()]
+display-name: Повреждённый файл отклоняется и остаётся без изменений
+]]></system-out>
+</testcase>
+<testcase name="overlappingBooking(String, String)[5]" classname="BookingServiceTest" time="0.016">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:overlappingBooking(java.lang.String, java.lang.String)]/[test-template-invocation:#5]
+display-name: Пересечение: 09:00–12:00
+]]></system-out>
+</testcase>
+<testcase name="persistence()" classname="BookingServiceTest" time="0.016">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:persistence()]
+display-name: Бронь сохраняется между экземплярами сервиса
+]]></system-out>
+</testcase>
+<testcase name="overlappingBooking(String, String)[2]" classname="BookingServiceTest" time="0.02">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:overlappingBooking(java.lang.String, java.lang.String)]/[test-template-invocation:#2]
+display-name: Пересечение: 09:30–10:30
+]]></system-out>
+</testcase>
+<testcase name="overlappingBooking(String, String)[3]" classname="BookingServiceTest" time="0.016">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:overlappingBooking(java.lang.String, java.lang.String)]/[test-template-invocation:#3]
+display-name: Пересечение: 10:30–11:30
+]]></system-out>
+</testcase>
+<testcase name="roomRoundTrip()" classname="BookingServiceTest" time="0.024">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:roomRoundTrip()]
+display-name: Название и параметры помещения сохраняются
+]]></system-out>
+</testcase>
+<testcase name="independentRooms()" classname="BookingServiceTest" time="0.027">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:independentRooms()]
+display-name: Разные помещения независимы, круглосуточная бронь может длиться несколько дней
+]]></system-out>
+</testcase>
+<testcase name="emptyStorage()" classname="BookingServiceTest" time="0.092">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:emptyStorage()]
+display-name: Новое хранилище пустое
+]]></system-out>
+</testcase>
+<testcase name="concurrentBooking()[2]" classname="BookingRepositoryTest" time="0.547">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingRepositoryTest]/[test-template:concurrentBooking()]/[test-template-invocation:#2]
+display-name: Восемь конкурирующих процессов: раунд 2
+]]></system-out>
+</testcase>
+<testcase name="concurrentBooking()[1]" classname="BookingRepositoryTest" time="0.553">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingRepositoryTest]/[test-template:concurrentBooking()]/[test-template-invocation:#1]
+display-name: Восемь конкурирующих процессов: раунд 1
+]]></system-out>
+</testcase>
+<testcase name="invalidPeriod(String, String)[6]" classname="BookingServiceTest" time="0.007">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidPeriod(java.lang.String, java.lang.String)]/[test-template-invocation:#6]
+display-name: Недопустимый период: 2026-02-30T10:00 — 2026-03-01T10:00
+]]></system-out>
+</testcase>
+<testcase name="invalidRoom(String, String, String, String)[6]" classname="BookingServiceTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidRoom(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#6]
+display-name: Некорректное помещение: A, 09:00–18:00, мест many
+]]></system-out>
+</testcase>
+<testcase name="quotedName()" classname="ConsoleApplicationTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ConsoleApplicationTest]/[method:quotedName()]
+display-name: Имя с пробелом в кавычках остаётся одним аргументом
+]]></system-out>
+</testcase>
+<testcase name="concurrentBooking()[3]" classname="BookingRepositoryTest" time="0.508">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingRepositoryTest]/[test-template:concurrentBooking()]/[test-template-invocation:#3]
+display-name: Восемь конкурирующих процессов: раунд 3
+]]></system-out>
+</testcase>
+<testcase name="invalidRoom(String, String, String, String)[1]" classname="BookingServiceTest" time="0.011">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidRoom(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#1]
+display-name: Некорректное помещение:  , 09:00–18:00, мест 20
+]]></system-out>
+</testcase>
+<testcase name="invalidRoom(String, String, String, String)[5]" classname="BookingServiceTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidRoom(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#5]
+display-name: Некорректное помещение: A, 09:00–18:00, мест -1
+]]></system-out>
+</testcase>
+<testcase name="invalidRoom(String, String, String, String)[4]" classname="BookingServiceTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidRoom(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#4]
+display-name: Некорректное помещение: A, 09:00–18:00, мест 0
+]]></system-out>
+</testcase>
+<testcase name="invalidRoom(String, String, String, String)[3]" classname="BookingServiceTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidRoom(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#3]
+display-name: Некорректное помещение: A, 25:00–18:00, мест 20
+]]></system-out>
+</testcase>
+<testcase name="invalidRoom(String, String, String, String)[2]" classname="BookingServiceTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidRoom(java.lang.String, java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#2]
+display-name: Некорректное помещение: A, 19:00–18:00, мест 20
+]]></system-out>
+</testcase>
+<testcase name="cancellationReleasesInterval()" classname="BookingServiceTest" time="0.024">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:cancellationReleasesInterval()]
+display-name: После отмены период снова доступен
+]]></system-out>
+</testcase>
+<testcase name="adjacentIntervals()" classname="BookingServiceTest" time="0.023">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:adjacentIntervals()]
+display-name: Соседние интервалы и границы рабочего дня разрешены
+]]></system-out>
+</testcase>
+<testcase name="restartInAnotherJvm()" classname="BookingRepositoryTest" time="0.182">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingRepositoryTest]/[method:restartInAnotherJvm()]
+display-name: Отдельная JVM читает ранее сохранённые данные
+]]></system-out>
+</testcase>
+<testcase name="unknownRoom()" classname="BookingServiceTest" time="0.011">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:unknownRoom()]
+display-name: Нельзя забронировать неизвестное помещение
+]]></system-out>
+</testcase>
+<testcase name="invalidPeriod(String, String)[1]" classname="BookingServiceTest" time="0.011">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidPeriod(java.lang.String, java.lang.String)]/[test-template-invocation:#1]
+display-name: Недопустимый период: 2026-11-02T08:59 — 2026-11-02T10:00
+]]></system-out>
+</testcase>
+<testcase name="invalidPeriod(String, String)[4]" classname="BookingServiceTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidPeriod(java.lang.String, java.lang.String)]/[test-template-invocation:#4]
+display-name: Недопустимый период: 2026-11-02T10:00 — 2026-11-02T10:00
+]]></system-out>
+</testcase>
+<testcase name="invalidPeriod(String, String)[5]" classname="BookingServiceTest" time="0.007">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidPeriod(java.lang.String, java.lang.String)]/[test-template-invocation:#5]
+display-name: Недопустимый период: 2026-11-02T11:00 — 2026-11-02T10:00
+]]></system-out>
+</testcase>
+<testcase name="wrongOwner()" classname="BookingServiceTest" time="0.017">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:wrongOwner()]
+display-name: Чужое имя не позволяет отменить бронь
+]]></system-out>
+</testcase>
+<testcase name="invalidPeriod(String, String)[2]" classname="BookingServiceTest" time="0.01">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidPeriod(java.lang.String, java.lang.String)]/[test-template-invocation:#2]
+display-name: Недопустимый период: 2026-11-02T17:00 — 2026-11-02T18:01
+]]></system-out>
+</testcase>
+<testcase name="invalidPeriod(String, String)[3]" classname="BookingServiceTest" time="0.01">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[test-template:invalidPeriod(java.lang.String, java.lang.String)]/[test-template-invocation:#3]
+display-name: Недопустимый период: 2026-11-02T17:00 — 2026-11-03T10:00
+]]></system-out>
+</testcase>
+<testcase name="unknownBooking()" classname="BookingServiceTest" time="0.009">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:unknownBooking()]
+display-name: Отмена неизвестной брони отклоняется
+]]></system-out>
+</testcase>
+<testcase name="blankOwner()" classname="BookingServiceTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:BookingServiceTest]/[method:blankOwner()]
+display-name: Владелец не может быть пустым
+]]></system-out>
+</testcase>
+<testcase name="unclosedQuote()" classname="ConsoleApplicationTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ConsoleApplicationTest]/[method:unclosedQuote()]
+display-name: Незакрытые кавычки отклоняются
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
