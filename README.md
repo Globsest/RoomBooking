@@ -49,3 +49,22 @@ Java 17. Тесты используют JUnit 5.11.4; библиотека вк
 - `tests/BookingServiceTest.java` - помещения, интервалы, пересечения и отмена.
 - `tests/BookingRepositoryTest.java` - повреждённые данные, перезапуск и конкуренция процессов.
 - `tests/ConsoleApplicationTest.java` - разбор команд и кавычек.
+
+
+Для запуска требуется JDK 17 или новее и IntelliJ IDEA.
+
+- Распакуйте архив.
+
+- В IntelliJ IDEA выберите File → Open и откройте pom.xml как проект.
+
+- Дождитесь загрузки Maven-зависимостей. При первом открытии потребуется интернет.
+
+- В File → Project Structure → Project выберите установленный JDK.
+
+- В Modules → Dependencies установите Module SDK → Project SDK.
+
+Если появляется ошибка «No JDK for module», проверьте выбор JDK в настройках Project и Modules → Dependencies.
+
+Если появляется ошибка «No junit.jar», нажмите правой кнопкой на pom.xml → Add as Maven Project, затем в панели Maven выберите Reload All Maven Projects. Альтернативный способ: в папке lib нажмите правой кнопкой на junit-platform-console-standalone-1.11.4.jar → Add as Library и выберите модуль проекта.
+
+Если останутся вопросы, касаемо программы и ее выполнения — можете писать мне на почте или в телеграмме (второй вариант предпочтительнее)
